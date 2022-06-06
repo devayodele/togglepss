@@ -6,4 +6,4 @@
 * Native-looking UI
 * Vanilla JavaScript
 
-*Click here to check it out (https://github.com/devayodele/togglepss.git)
+Click here to check it out (https://github.com/devayodele/togglepss.git)

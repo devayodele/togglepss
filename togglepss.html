@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="togglepss.css" type="text/css" />
+    <link rel="stylesheet" <!DOCTYPE html />
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Toggle Password Visibility</title>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+        />
+      </head>
+      <body>
+        <div id="MainDiv">
+          <div id="bfMain">
+            <div id="supDiv">
+              <div id="formDiv">
+                <h1>Toggle Password Visibility</h1>
+                <form action="null" method="POST" id="form-1">
+                  <h1 id="formHd">Sign In</h1>
+                  <div class="field-1">
+                    <label for="username">Username</label><br />
+                    <input
+                      type="text"
+                      id="username"
+                      name="username"
+                      placeholder="Enter your username"
+                      required
+                    />
+                  </div>
+                  <div class="field-2">
+                    <label for="password">Password</label><br />
+                    <input
+                      type="password"
+                      id="password"
+                      name="password"
+                      placeholder="Enter your password"
+                      required
+                    />
+                    <i class="bi bi-eye-slash" id="togglePsw"></i>
+                  </div>
+                  <button id="btn" type="submit">Log In</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <script src="togglePss.js"></script>
+      </body>
+    </html>
+  </head>
+</html>
